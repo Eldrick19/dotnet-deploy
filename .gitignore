@@ -351,3 +351,4 @@ MigrationBackup/
 
 
 codedeploy/publish
+*.DS_Store
