@@ -16,7 +16,7 @@ jobs:
           dotnet-version: '6.0.x' # SDK Version to use
       # Step 3
       - name: Build Application
-        run: dotnet build
+        run: dotnet build src/dotnet-codedeploy.csproj
 
   continuous-deployment:
     runs-on: ubuntu-latest
