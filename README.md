@@ -6,3 +6,6 @@ This repository is intended to demonstrate the ability to deploy a sample ASP .N
 2. `deploy.yml` workflow will be executed doing a simple _CI_ job (building) followed by a _CD_ job (deploying).
 3. The deployment is made to AWS CodeDeploy, which then sends this information to a VM instance where the application is hosted
 4. You can access this application via the IP [3.219.63.62](http://3.219.63.62)
+
+
+The Application is pulled from @martinjt's repo found [here](https://github.com/martinjt/codedeploy-dotnet), with some slight modifications.
