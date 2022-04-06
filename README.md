@@ -12,7 +12,7 @@ This repository is intended to demonstrate the ability to deploy a sample ASP .N
 - [ ] Copy this repository template if you haven't already
 - [ ] If you want to deploy to AWS, make sure you have your appropriate `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` stored as Secrets within the repository (so that the deploy workflow can use them
 - [ ] Clone the repository locally in your directory: `git clone https://github.com/<YOUR_USERNAME>/dotnet-deploy.git`
-- [ ] Reset to commit before Actions were introduced: `git reset --hard <SHA>`
+- [ ] Reset to commit before Actions were introduced. To find the SHA go into the commit history and check the latest commit labeled 'RESET': `git reset --hard <SHA>`
 - [ ] Push back to GitHub: `git push origin -f`
 
 
